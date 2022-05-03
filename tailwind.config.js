@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'dark-bg': '#212529'
+        'dark-bg': '#212529',
+        'yellow-select': '#FFB742'
       }
     },
   },
