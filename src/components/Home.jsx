@@ -6,10 +6,10 @@ class Home extends Component {
     return (
       <div className="text-white flex flex-col my-6">
         <div className="flex justify-center my-2">
-          <h2 className="text-2xl">Prazer,
+          <h2 className="text-[22px]">Prazer,
           <a href="https://www.linkedin.com/in/mlopeesz/" target="_blank" className="text-yellow-select mx-1.5 underline" rel="noreferrer">Mauricio Lopes</a>👋</h2>
         </div>
-        <div className="flex justify-center text-3xl">
+        <div className="flex justify-center text-[26px]">
           <h1>Desenvolvedor Web Fullstack</h1>
         </div>
         <div className="flex justify-center my-8">
