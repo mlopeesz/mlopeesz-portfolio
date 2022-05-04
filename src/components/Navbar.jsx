@@ -4,7 +4,7 @@ import logo from '../assets/icons/computer.svg'
 class Navbar extends Component {
   render() {
     return (
-      <div className="bg-dark-bg flex justify-between w-full">
+      <div className="bg-dark-bg flex justify-between w-full fixed top-0">
         <div className="mx-2 my-2">
           <img src={logo} alt="computer logo" className="w-8"/>
         </div>
