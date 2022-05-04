@@ -9,11 +9,11 @@ class Navbar extends Component {
           <img src={logo} alt="computer logo" className="w-8"/>
         </div>
         <div className="text-white flex space-x-6 mx-2 my-2" >
-          <a href="#">Home</a>
-          <a href="#">Sobre</a>
-          <a href="#">Skills</a>
-          <a href="#">Projetos</a>
-          <a href="#">Contato</a>
+          <a className="hover:text-yellow-select" href="#Home">Home</a>
+          <a className="hover:text-yellow-select" href="#About">Sobre</a>
+          <a className="hover:text-yellow-select" href="#Skills">Skills</a>
+          <a className="hover:text-yellow-select" href="#Projects">Projetos</a>
+          <a className="hover:text-yellow-select" href="#Footer">Contato</a>
         </div>
       </div>
     );

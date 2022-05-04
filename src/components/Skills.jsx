@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 class Skills extends Component {
   render() {
     return (
-      <div className="max-w-[90%] mx-auto my-4 text-center">
-        <h3 className="bg-dark-bg text-yellow-select rounded">
-          Habilidades
+      <div id="Skills" className="max-w-[90%] mx-auto my-4 text-center">
+        <h3 className="bg-dark-bg text-yellow-select">
+          Skills
         </h3>
         <div className="flex flex-col my-2">
-          <div className=" my-2">
+          <div className="my-2">
             <h2 className="text-[22px]">O que está incluído em minhas habilidades com programação?</h2>
           </div>
           <div className="flex grid-cols-4 my-2 gap-2 flex-wrap justify-center">
@@ -39,6 +39,10 @@ class Skills extends Component {
             {/* BOOTSTRAP */}
             <a href="https://getbootstrap.com/">
               <img src="https://img.shields.io/badge/Bootstrap-212529?style=for-the-badge&logo=bootstrap&logoColor=563D7C" />
+            </a>
+            {/* TAILWIND */}
+            <a href="https://tailwindcss.com/">
+              <img src="https://img.shields.io/badge/Tailwindcss-212529?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8" />
             </a>
             {/* JAVASCRIPT */}
             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
