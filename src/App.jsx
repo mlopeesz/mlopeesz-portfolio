@@ -8,7 +8,7 @@ import Skills from './components/Skills';
 
 function App () {
   return (
-    <div className="snap-y snap-mandatory">
+    <div>
       <Navbar />
       <Home />
       <About />

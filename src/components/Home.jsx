@@ -6,7 +6,7 @@ class Home extends Component {
     return (
       <div
         id="Home"
-        className="text-white w-full h-screen flex justify-center items-center flex-wrap"
+        className="text-white w-full h-screen flex justify-center items-center flex-wrap snap-start"
       >
         <div className="flex flex-col jusitfy-center items-center">
           <h2 className="text-[28px]">

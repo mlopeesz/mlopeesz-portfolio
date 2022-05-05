@@ -8,13 +8,6 @@ class Footer extends Component {
           <h2 className="text-yellow-select text-[18px]">Mauricio Lopes</h2>
           <p className="text-[18px]">Desenvolvedor Web Fullstack</p>
         </div>
-        {/* <div className="flex flex-col justify-center text-center">
-          <h3>Links</h3>
-          <a href="#Home">Home</a>
-          <a href="#About">Sobre</a>
-          <a href="#Skills">Habilidades</a>
-          <a href="#Projects">Projetos</a>
-        </div> */}
         <div className="flex flex-col justify-center my-2 gap-2 items-center">
           {/* LINKEDIN */}
           <a href="https://www.linkedin.com/in/mlopeesz/" target="_blank" rel="noreferrer">
