@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
+import memojiLamp from '../assets/memojis/memoji-lamp.png'
 
 class Skills extends Component {
   render() {
     return (
-      <div id="Skills" className="max-w-[90%] mx-auto my-4 text-center">
-        <h3 className="bg-dark-bg text-yellow-select">
-          Skills
-        </h3>
-        <div className="flex flex-col my-2">
-          <div className="my-2">
-            <h2 className="text-[22px]">O que está incluído em minhas habilidades com programação?</h2>
+      <div id="Skills" className="flex flex-row-reverse justify-center items-center flex-wrap h-screen snap-start">
+        <div className="flex flex-col gap-8 mt-12">
+          <div className="flex flex-col justify-center items-center gap-4">
+            <h3 className="bg-dark-bg text-yellow-select rounded text-[28px] w-52 text-center">
+              Skills
+            </h3>
+            <h2 className="text-[22px] text-center">O que está incluído em minhas habilidades com programação?</h2>
           </div>
-          <div className="flex grid-cols-4 my-2 gap-2 flex-wrap justify-center">
+          <div className="grid grid-cols-2 justify-items-center gap-2">
             {/* LINUX */}
             <a href="https://www.linux.org/">
               <img src="https://img.shields.io/badge/Linux-212529?style=for-the-badge&logo=linux&logoColor=000000" />
@@ -82,6 +83,7 @@ class Skills extends Component {
             </a>
           </div>
         </div>
+        <img src={memojiLamp} />
       </div>
     );
   }
