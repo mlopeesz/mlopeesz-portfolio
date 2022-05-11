@@ -7,13 +7,13 @@ class Projects extends Component {
       <div id="Projects" className="text-white w-full h-screen flex flex-col justify-center items-center flex-wrap snap-start">
         <h2 className="bg-dark-bg text-yellow-select rounded text-[28px] w-52 text-center mt-14">Projetos</h2>
         <div>
-          {projects.map((project) => {
-            <div>
+          {projects.map((project) => 
+            <div key={project.name}>
               <h2>{project.name}</h2>
               <p>{project.description}</p>
               <p>{project.stacks}</p>
             </div>
-          })}
+          )}
         </div>
       </div>
     );
