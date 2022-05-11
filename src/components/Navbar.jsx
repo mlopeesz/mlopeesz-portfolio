@@ -4,18 +4,18 @@ import logo from '../assets/icons/computer.svg'
 class Navbar extends Component {
   render() {
     return (
-      <div className="bg-dark-bg flex justify-between w-full fixed top-0">
-        <div className="mx-2 my-2">
-          <img src={logo} alt="computer logo" className="w-8"/>
-        </div>
-        <div className="text-white flex space-x-6 mx-2 my-2" >
-          <a className="hover:text-yellow-select" href="#Home">Home</a>
-          <a className="hover:text-yellow-select" href="#About">Sobre</a>
-          <a className="hover:text-yellow-select" href="#Skills">Skills</a>
-          <a className="hover:text-yellow-select" href="#Projects">Projetos</a>
-          <a className="hover:text-yellow-select" href="#Footer">Contato</a>
-        </div>
-      </div>
+      <header className="bg-dark-bg flex justify-between items-center h-16 p-4 box-border">
+        <img src={logo} alt="computer logo" className="w-8"/>
+        <nav>
+          <ul className="flex gap-2">
+            <li><a className="hover:text-yellow-select" href="#Home">Home</a></li>
+            <li><a className="hover:text-yellow-select" href="#About">Sobre</a></li>
+            <li><a className="hover:text-yellow-select" href="#Skills">Skills</a></li>
+            <li><a className="hover:text-yellow-select" href="#Projects">Projetos</a></li>
+            <li><a className="hover:text-yellow-select" href="#Footer">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
     );
   }
 }
