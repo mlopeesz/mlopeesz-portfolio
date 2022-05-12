@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import memojiLamp from '../assets/memojis/memoji-lamp.png'
 
 class Skills extends Component {
   render() {
@@ -83,7 +82,6 @@ class Skills extends Component {
             </a>
           </div>
         </div>
-        <img src={memojiLamp} />
       </div>
     );
   }
