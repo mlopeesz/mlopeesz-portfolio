@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import gmail from '../assets/icons/email.png'
+import github from '../assets/icons/github.png'
+import linkedin from '../assets/icons/linkedin.png'
 
 class Footer extends Component {
   render() {
@@ -9,17 +12,17 @@ class Footer extends Component {
           <p className="text-[18px]">Desenvolvedor Web Fullstack</p>
         </div>
         <div className="flex flex-col justify-center my-2 gap-2 items-center">
-          {/* LINKEDIN */}
-          <a href="https://www.linkedin.com/in/mlopeesz/" target="_blank" rel="noreferrer">
-            <img src="https://img.shields.io/badge/linkedin-383E45?style=for-the-badge&logo=linkedin&logoColor=0D66C2" />
-          </a>
           {/* GITHUB */}
-          <a href="https://github.com/mlopeesz" target="_blank" rel="noreferrer">
-            <img src="https://img.shields.io/badge/github-383E45?style=for-the-badge&logo=github&logoColor=FFFFFF" />
+          <a className="w-10" href="https://github.com/mlopeesz" target="_blank" rel="noreferrer">
+            <img src={github} />
+          </a>
+          {/* LINKEDIN */}
+          <a className="w-10" href="https://www.linkedin.com/in/mlopeesz/" target="_blank" rel="noreferrer">
+            <img src={linkedin} />
           </a>
           {/* EMAIL */}
-          <a href="mailto:mlopeesz@gmail.com" target="_blank" rel="noreferrer">
-            <img src="https://img.shields.io/badge/email-383E45?style=for-the-badge&logo=gmail&logoColor=CD3D30" />
+          <a className="w-10" href="mailto:mlopeesz@gmail.com" target="_blank" rel="noreferrer">
+            <img src={gmail} />
           </a>
         </div>
       </div>
