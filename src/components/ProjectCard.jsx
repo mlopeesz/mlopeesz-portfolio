@@ -4,7 +4,7 @@ import projects from '../data/projects';
 class ProjectCard extends Component {
   render() {
     return (
-      <div className="grid grid-cols-2 gap-2 m-4">
+      <div className="flex flex-wrap gap-2 m-4">
         {projects.map((project) => (
           <div key={project.name} className="flex justify-center">
             <div className="rounded-lg shadow-lg bg-dark-bg max-w-sm">
