@@ -47,7 +47,7 @@ class NavbarTailwind extends Component {
                   <a className="nav-link block pr-2 lg:px-2 py-2 text-white hover:text-yellow-select focus:text-yellow-select transition duration-150 ease-in-out" href="#Projects" data-mdb-ripple="true" data-mdb-ripple-color="light">Projetos</a>
                 </li>
                 <li className="nav-item mb-2 lg:mb-0">
-                  <a className="nav-link block pr-2 lg:px-2 text-white hover:text-yellow-select focus:text-yellow-select transition duration-150 ease-in-out" href="#Footer" data-mdb-ripple="true" data-mdb-ripple-color="light">Contato</a>
+                  <a className="nav-link block pr-2 lg:px-2 py-2 text-white hover:text-yellow-select focus:text-yellow-select transition duration-150 ease-in-out" href="#Footer" data-mdb-ripple="true" data-mdb-ripple-color="light">Contato</a>
                 </li>
               </ul>
             </div>
