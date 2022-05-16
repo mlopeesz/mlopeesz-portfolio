@@ -8,7 +8,7 @@ class Home extends Component {
         id="Home"
         className="text-white w-full h-screen flex justify-center items-center flex-wrap snap-start"
       >
-        <div className="flex flex-col jusitfy-center items-center">
+        <div className="flex flex-col jusitfy-center items-center mt-20">
           <h2 className="text-[28px]">
             Prazer,
             <a
@@ -22,7 +22,7 @@ class Home extends Component {
             👋
           </h2>
           <h1 className="text-[34px] text-center">Desenvolvedor Web Fullstack</h1>
-          <p className="text-[18px] text-center">Código simples, bonito e funcional.</p>
+          <p className="text-[18px] text-center">Código simples e funcional.</p>
         </div>
         <img src={memojiNotebook} alt="memoji-notebook" />
       </div>
