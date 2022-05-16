@@ -80,6 +80,10 @@ class Skills extends Component {
             <a href="https://www.heroku.com/home">
               <img src="https://img.shields.io/badge/Heroku-212529?style=for-the-badge&logo=HEROKU&logoColor=B893DF" />
             </a>
+            {/* DOCKER */}
+            <a href="https://www.docker.com/">
+              <img src="https://img.shields.io/badge/Docker-212529?style=for-the-badge&logo=Docker&logoColor=0db7ed" />
+            </a>
           </div>
         </div>
       </div>
