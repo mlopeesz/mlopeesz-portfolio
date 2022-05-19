@@ -19,6 +19,13 @@ const projects = [
     stacks: 'node.js, nodemon, body-parser, MSC, mysql2, express',
     img: 'https://i.imgur.com/jygSzGh.png',
     github: 'https://github.com/mlopeesz/store-manager'
+  },
+  {
+    name: 'MyTasks',
+    description: 'Neste projeto foi desenvolvido uma simples lista de tarefas, nessa lista o usuário pode: Adicionar uma tarefa, remover uma tarefa, visualizar o número de tarefas pendentes, etc.',
+    stacks: 'React.js, Context API, TailwindCSS',
+    img: 'https://i.imgur.com/snHpE1O.png',
+    github: 'https://github.com/mlopeesz/mytasks'
   }
 ];
 
