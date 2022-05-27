@@ -5,7 +5,7 @@ class Projects extends Component {
   render() {
     return (
       <div
-        id="Projects"
+        id="projects"
         className="text-white w-full 
        flex flex-col justify-center items-center snap-start gap-4"
       >

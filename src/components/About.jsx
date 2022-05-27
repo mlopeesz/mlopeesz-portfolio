@@ -4,7 +4,7 @@ import memojiYes from '../assets/memojis/memoji-yes.png'
 class About extends Component {
   render() {
     return (
-      <div id="About" className="text-white w-full h-screen flex justify-center items-center flex-wrap snap-start">
+      <div id="about" className="text-white w-full h-screen flex justify-center items-center flex-wrap snap-start">
         <div className="flex flex-col justify-center items-center gap-8 mt-6">
           <h3 className="bg-dark-bg text-yellow-select rounded text-[28px] w-52 text-center">Sobre mim</h3>
           <p className="break-normal text-center max-w-prose mx-8 text-[18px]">

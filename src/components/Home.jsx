@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div
-        id="Home"
+        id="home"
         className="text-white w-full h-screen flex justify-center items-center flex-wrap snap-start"
       >
         <div className="flex flex-col jusitfy-center items-center mt-20">

@@ -6,7 +6,7 @@ import linkedin from '../assets/icons/linkedin.png'
 class Footer extends Component {
   render() {
     return (
-      <div id="Footer" className="bg-dark-bg flex justify-around h-48">
+      <div id="footer" className="bg-dark-bg flex justify-around h-48">
         <div className="flex flex-col justify-center text-center">
           <h2 className="text-yellow-select text-[18px]">Mauricio Lopes</h2>
           <p className="text-[18px]">Desenvolvedor Web Fullstack</p>
