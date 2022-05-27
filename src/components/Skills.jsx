@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Skills extends Component {
   render() {
     return (
-      <div id="Skills" className="flex flex-row-reverse justify-center items-center flex-wrap h-screen snap-start">
+      <div id="skills" className="flex flex-row-reverse justify-center items-center flex-wrap h-screen snap-start">
         <div className="flex flex-col gap-8 mt-12">
           <div className="flex flex-col justify-center items-center gap-4">
             <h3 className="bg-dark-bg text-yellow-select rounded text-[28px] w-52 text-center">
